@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Dark 2026 Minimal Purple",
+  "name": "Dark Purple Minimal",
   "type": "dark",
   "colors": {
     "checkbox.border": "#707070",

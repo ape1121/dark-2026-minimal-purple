@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.3
+
+- Rename the extension display name and theme picker entry to Dark Purple Minimal.
+
 ## 0.1.2
 
 - Update the current line background to `#141414` from the user settings.
