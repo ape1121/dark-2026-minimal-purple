@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.7
+
+- Rename the extension and theme to Dark Black / Purple Accent.
+- Refresh the Marketplace icon.
+- Add a screenshot preview to the README and Marketplace description.
+
 ## 0.1.6
 
 - Upgrade the Marketplace icon to 512×512 pixels.

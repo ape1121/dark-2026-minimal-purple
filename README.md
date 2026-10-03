@@ -1,6 +1,10 @@
-# Dark Purple Minimal
+# Dark Black / Purple Accent
 
 A minimal near-black theme with deep purple accents for Visual Studio Code.
+
+## Preview
+
+![Dark Black / Purple Accent theme showing C# code, black editor surfaces, and purple accents](screenshot.png)
 
 ## Colors
 
@@ -16,10 +20,10 @@ The theme is self-contained and does not depend on another theme extension. Eigh
 Install the theme from a packaged `.vsix`: open **Extensions: Install from VSIX...** in the Command Palette and choose the file. You can also run:
 
 ```sh
-code --install-extension dark-2026-minimal-purple-0.1.6.vsix
+code --install-extension dark-2026-minimal-purple-0.1.7.vsix
 ```
 
-Open **Preferences: Color Theme** from the Command Palette and select **Dark Purple Minimal**.
+Open **Preferences: Color Theme** from the Command Palette and select **Dark Black / Purple Accent**.
 
 Existing `workbench.colorCustomizations` settings take precedence over themes. To see this theme as shipped, remove the original overrides or test in a temporary profile without them.
 
@@ -63,7 +67,7 @@ npm ci
 npm run package
 ```
 
-Open the [Marketplace publisher management page](https://marketplace.visualstudio.com/manage/publishers/), select your publisher, choose **New extension → Visual Studio Code**, and upload `dark-2026-minimal-purple-0.1.6.vsix`. Browser upload does not require a CLI login or a personal access token. For later updates, increment the version in `package.json`, rebuild, and upload the new package to the existing extension.
+Open the [Marketplace publisher management page](https://marketplace.visualstudio.com/manage/publishers/), select your publisher, choose **New extension → Visual Studio Code**, and upload `dark-2026-minimal-purple-0.1.7.vsix`. Browser upload does not require a CLI login or a personal access token. For later updates, increment the version in `package.json`, rebuild, and upload the new package to the existing extension.
 
 For CLI publishing instead, authenticate using the [VS Code publishing guide](https://code.visualstudio.com/api/working-with-extensions/publishing-extension) and run `npm run publish:marketplace`.
 
