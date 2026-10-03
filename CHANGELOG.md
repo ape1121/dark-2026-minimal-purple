@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.4
+
+- Soften editor text, syntax token colors, and semantic token colors by reducing foreground RGB channels by 8%.
+
 ## 0.1.3
 
 - Rename the extension display name and theme picker entry to Dark Purple Minimal.
