@@ -1,0 +1,49 @@
+{
+  "name": "dark-2026-minimal-purple",
+  "displayName": "Dark 2026 Minimal Purple",
+  "description": "A minimal near-black VS Code theme with deep purple accents, based on Dark 2026.",
+  "version": "0.1.0",
+  "publisher": "publisher-id-pending",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ape1121/dark-2026-minimal-purple.git"
+  },
+  "homepage": "https://github.com/ape1121/dark-2026-minimal-purple#readme",
+  "bugs": {
+    "url": "https://github.com/ape1121/dark-2026-minimal-purple/issues"
+  },
+  "engines": {
+    "vscode": "^1.110.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "dark",
+    "purple",
+    "minimal",
+    "black",
+    "dark 2026"
+  ],
+  "galleryBanner": {
+    "color": "#0a0a0a",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark 2026 Minimal Purple",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-2026-minimal-purple-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish:marketplace": "vsce publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "4.0.0"
+  }
+}
