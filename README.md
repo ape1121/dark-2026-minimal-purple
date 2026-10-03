@@ -1,44 +1,28 @@
-# Minimal Dark : Purple Accent on Black
+# Minimal Black & Purple Theme
 
-A minimal near-black theme with deep purple accents for Visual Studio Code.
+A minimal black theme with purple accents and softer Dark Modern syntax colors for Visual Studio Code.
 
-## Preview
+![Minimal Black & Purple Theme preview showing C# code, black editor surfaces, and purple accents](screenshot.png)
 
-![Minimal Dark : Purple Accent on Black theme showing C# code, black editor surfaces, and purple accents](screenshot.png)
+## Features
 
-## Colors
+- Black and near-black backgrounds across the editor, tabs, sidebar, panels, and terminal.
+- Deep purple accents for buttons, badges, selections, and focus indicators.
+- Familiar Dark Modern syntax and semantic highlighting, slightly dimmed for softer code text.
+- A subtle current-line highlight.
 
-- Near-black editor, title bar, panels, terminal, and tabs.
-- Purple buttons, badges, selections, focus outlines, and panel accents.
-- All 39 custom workbench colors included, including the three Dark 2026-specific overrides.
-- Dark Modern syntax and semantic highlighting for functions, objects, keywords, modifiers, and other code symbols, with RGB color channels reduced by 8% for softer text.
+## Install
 
-The theme is self-contained and does not depend on another theme extension. Eight-digit hex colors preserve the original alpha values; these control color compositing inside VS Code and do not enable desktop-window transparency.
+Search for **Minimal Black & Purple Theme** in the VS Code Extensions view and click **Install**. Then open **Preferences: Color Theme** from the Command Palette and select **Minimal Black & Purple Theme**.
 
-## Install and activate
+## Optional layout and font settings
 
-Install the theme from a packaged `.vsix`: open **Extensions: Install from VSIX...** in the Command Palette and choose the file. You can also run:
-
-```sh
-code --install-extension dark-2026-minimal-purple-0.1.7.vsix
-```
-
-Open **Preferences: Color Theme** from the Command Palette and select **Minimal Dark : Purple Accent on Black**.
-
-Existing `workbench.colorCustomizations` settings take precedence over themes. To see this theme as shipped, remove the original overrides or test in a temporary profile without them.
-
-## Recommended settings
-
-For the original minimal layout and typography, add the following preferences to your user settings. These are optional: color themes control colors and syntax styles, while font, layout, and chat preferences are separate user settings.
-
-Install [Fira Code](https://github.com/tonsky/FiraCode) separately to use the font and its ligatures; the extension does not distribute the font.
+To match the minimal layout in the preview, add these preferences to your VS Code user settings. Install [Fira Code](https://github.com/tonsky/FiraCode) if you want the same font and ligatures.
 
 ```json
 {
   "workbench.startupEditor": "none",
   "workbench.activityBar.location": "top",
-  "chat.titleBar.openInAgentsWindow.enabled": false,
-  "chat.agent.enabled": false,
   "editor.fontSize": 16,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
@@ -47,30 +31,16 @@ Install [Fira Code](https://github.com/tonsky/FiraCode) separately to use the fo
 }
 ```
 
-This block reproduces all remaining original preferences: no startup editor, activity bar at the top, 16px Fira Code with ligatures, hidden status bar and layout controls, and the original chat preferences. Chat settings may depend on your VS Code version and installed features.
+These preferences are optional and are configured separately from the theme.
 
-## Development and packaging
+## Customization
 
-```sh
-npm ci
-npm run package
-```
+Use `workbench.colorCustomizations` to adjust individual interface colors. Existing user color overrides take precedence over the theme. Syntax colors can be adjusted with `editor.tokenColorCustomizations` and `editor.semanticTokenColorCustomizations`.
 
-Press F5 in this project to open an Extension Development Host and select the theme. Use a temporary profile without user color overrides to inspect the bundled colors independently.
+## Feedback
 
-## Upload to the Marketplace manually
-
-The package is configured for the [ape1121 Marketplace publisher](https://marketplace.visualstudio.com/publishers/ape1121). Build the package:
-
-```sh
-npm ci
-npm run package
-```
-
-Open the [Marketplace publisher management page](https://marketplace.visualstudio.com/manage/publishers/), select your publisher, choose **New extension → Visual Studio Code**, and upload `dark-2026-minimal-purple-0.1.7.vsix`. Browser upload does not require a CLI login or a personal access token. For later updates, increment the version in `package.json`, rebuild, and upload the new package to the existing extension.
-
-For CLI publishing instead, authenticate using the [VS Code publishing guide](https://code.visualstudio.com/api/working-with-extensions/publishing-extension) and run `npm run publish:marketplace`.
+Report problems or suggest improvements on [GitHub](https://github.com/ape1121/dark-2026-minimal-purple/issues).
 
 ## Credits and license
 
-Workbench colors are based on Microsoft's built-in Dark 2026 theme. Editor text colors, TextMate rules, and semantic highlighting are derived from Dark Modern, including its Dark+ and Visual Studio Dark inheritance chain, with code foreground RGB channels reduced by 8%. The original theme definitions and these customizations are distributed under the MIT license; see LICENSE. This is an independent theme extension.
+Interface colors are based on Microsoft's Dark 2026 theme. Syntax and semantic highlighting are derived from Dark Modern, with foreground RGB channels reduced by 7%. Distributed under the [MIT license](LICENSE).

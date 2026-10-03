@@ -1,8 +1,8 @@
 {
   "name": "dark-2026-minimal-purple",
-  "displayName": "Minimal Dark : Purple Accent on Black",
-  "description": "A minimal near-black VS Code theme with deep purple accents, based on Dark 2026.",
-  "version": "0.1.7",
+  "displayName": "Minimal Black & Purple Theme",
+  "description": "A minimal black theme with purple accents and softer Dark Modern syntax colors.",
+  "version": "0.1.8",
   "publisher": "ape1121",
   "license": "MIT",
   "repository": {
@@ -33,7 +33,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Minimal Dark : Purple Accent on Black",
+        "label": "Minimal Black & Purple Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-2026-minimal-purple-color-theme.json"
       }

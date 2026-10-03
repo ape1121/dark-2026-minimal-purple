@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.8
+
+- Rename the extension and theme to Minimal Black & Purple Theme.
+- Adjust code text dimming from 8% to 7% of the original Dark Modern RGB values.
+- Rewrite the README for theme users and move development and publishing instructions to CONTRIBUTING.md.
+
 ## 0.1.7
 
 - Rename the extension and theme to Minimal Dark : Purple Accent on Black.
