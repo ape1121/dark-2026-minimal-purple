@@ -16,7 +16,7 @@ The theme is self-contained and does not depend on another theme extension. Eigh
 Install the theme from a packaged `.vsix`: open **Extensions: Install from VSIX...** in the Command Palette and choose the file. You can also run:
 
 ```sh
-code --install-extension dark-2026-minimal-purple-0.1.5.vsix
+code --install-extension dark-2026-minimal-purple-0.1.6.vsix
 ```
 
 Open **Preferences: Color Theme** from the Command Palette and select **Dark Purple Minimal**.
@@ -63,7 +63,7 @@ npm ci
 npm run package
 ```
 
-Open the [Marketplace publisher management page](https://marketplace.visualstudio.com/manage/publishers/), select your publisher, choose **New extension → Visual Studio Code**, and upload `dark-2026-minimal-purple-0.1.5.vsix`. Browser upload does not require a CLI login or a personal access token. For later updates, increment the version in `package.json`, rebuild, and upload the new package to the existing extension.
+Open the [Marketplace publisher management page](https://marketplace.visualstudio.com/manage/publishers/), select your publisher, choose **New extension → Visual Studio Code**, and upload `dark-2026-minimal-purple-0.1.6.vsix`. Browser upload does not require a CLI login or a personal access token. For later updates, increment the version in `package.json`, rebuild, and upload the new package to the existing extension.
 
 For CLI publishing instead, authenticate using the [VS Code publishing guide](https://code.visualstudio.com/api/working-with-extensions/publishing-extension) and run `npm run publish:marketplace`.
 

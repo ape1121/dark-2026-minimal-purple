@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.6
+
+- Upgrade the Marketplace icon to 512×512 pixels.
+
 ## 0.1.5
 
 - Register the bundled icon.png as the extension Marketplace icon.
