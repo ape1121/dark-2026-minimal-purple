@@ -2,7 +2,7 @@
   "name": "dark-2026-minimal-purple",
   "displayName": "Dark Purple Minimal",
   "description": "A minimal near-black VS Code theme with deep purple accents, based on Dark 2026.",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "publisher": "ape1121",
   "license": "MIT",
   "repository": {
@@ -45,5 +45,6 @@
   },
   "devDependencies": {
     "@vscode/vsce": "4.0.0"
-  }
+  },
+  "icon": "icon.png"
 }

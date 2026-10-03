@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.5
+
+- Register the bundled icon.png as the extension Marketplace icon.
+
 ## 0.1.4
 
 - Soften editor text, syntax token colors, and semantic token colors by reducing foreground RGB channels by 8%.
