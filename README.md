@@ -56,7 +56,7 @@ Press F5 in this project to open an Extension Development Host and select the th
 
 ## Upload to the Marketplace manually
 
-Replace `publisher-id-pending` in the `publisher` field of `package.json` with your existing Marketplace publisher ID. This must match the publisher receiving the upload. Then build the package:
+The package is configured for the [ape1121 Marketplace publisher](https://marketplace.visualstudio.com/publishers/ape1121). Build the package:
 
 ```sh
 npm ci
