@@ -1,10 +1,10 @@
-# Dark Black / Purple Accent
+# Minimal Dark : Purple Accent on Black
 
 A minimal near-black theme with deep purple accents for Visual Studio Code.
 
 ## Preview
 
-![Dark Black / Purple Accent theme showing C# code, black editor surfaces, and purple accents](screenshot.png)
+![Minimal Dark : Purple Accent on Black theme showing C# code, black editor surfaces, and purple accents](screenshot.png)
 
 ## Colors
 
@@ -23,7 +23,7 @@ Install the theme from a packaged `.vsix`: open **Extensions: Install from VSIX.
 code --install-extension dark-2026-minimal-purple-0.1.7.vsix
 ```
 
-Open **Preferences: Color Theme** from the Command Palette and select **Dark Black / Purple Accent**.
+Open **Preferences: Color Theme** from the Command Palette and select **Minimal Dark : Purple Accent on Black**.
 
 Existing `workbench.colorCustomizations` settings take precedence over themes. To see this theme as shipped, remove the original overrides or test in a temporary profile without them.
 

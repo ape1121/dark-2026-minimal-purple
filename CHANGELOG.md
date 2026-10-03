@@ -2,7 +2,7 @@
 
 ## 0.1.7
 
-- Rename the extension and theme to Dark Black / Purple Accent.
+- Rename the extension and theme to Minimal Dark : Purple Accent on Black.
 - Refresh the Marketplace icon.
 - Add a screenshot preview to the README and Marketplace description.
 
