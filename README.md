@@ -7,7 +7,7 @@ A minimal near-black theme with deep purple accents for Visual Studio Code.
 - Near-black editor, title bar, panels, terminal, and tabs.
 - Purple buttons, badges, selections, focus outlines, and panel accents.
 - All 39 custom workbench colors included, including the three Dark 2026-specific overrides.
-- Original Dark 2026 TextMate and semantic syntax highlighting included.
+- Dark Modern syntax and semantic highlighting for functions, objects, keywords, modifiers, and other code symbols.
 
 The theme is self-contained and does not depend on another theme extension. Eight-digit hex colors preserve the original alpha values; these control color compositing inside VS Code and do not enable desktop-window transparency.
 
@@ -16,7 +16,7 @@ The theme is self-contained and does not depend on another theme extension. Eigh
 Install the theme from a packaged `.vsix`: open **Extensions: Install from VSIX...** in the Command Palette and choose the file. You can also run:
 
 ```sh
-code --install-extension dark-2026-minimal-purple-0.1.1.vsix
+code --install-extension dark-2026-minimal-purple-0.1.2.vsix
 ```
 
 Open **Preferences: Color Theme** from the Command Palette and select **Dark 2026 Minimal Purple**.
@@ -63,10 +63,10 @@ npm ci
 npm run package
 ```
 
-Open the [Marketplace publisher management page](https://marketplace.visualstudio.com/manage/publishers/), select your publisher, choose **New extension → Visual Studio Code**, and upload `dark-2026-minimal-purple-0.1.1.vsix`. Browser upload does not require a CLI login or a personal access token. For later updates, increment the version in `package.json`, rebuild, and upload the new package to the existing extension.
+Open the [Marketplace publisher management page](https://marketplace.visualstudio.com/manage/publishers/), select your publisher, choose **New extension → Visual Studio Code**, and upload `dark-2026-minimal-purple-0.1.2.vsix`. Browser upload does not require a CLI login or a personal access token. For later updates, increment the version in `package.json`, rebuild, and upload the new package to the existing extension.
 
 For CLI publishing instead, authenticate using the [VS Code publishing guide](https://code.visualstudio.com/api/working-with-extensions/publishing-extension) and run `npm run publish:marketplace`.
 
 ## Credits and license
 
-Based on Microsoft's built-in Dark 2026 theme, including its Dark Modern, Dark+, and Visual Studio Dark inheritance chain. The original theme definitions and these customizations are distributed under the MIT license; see LICENSE. This is an independent theme extension.
+Workbench colors are based on Microsoft's built-in Dark 2026 theme. Editor text colors, TextMate rules, and semantic highlighting come from Dark Modern, including its Dark+ and Visual Studio Dark inheritance chain. The original theme definitions and these customizations are distributed under the MIT license; see LICENSE. This is an independent theme extension.
